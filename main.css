@@ -1,0 +1,144 @@
+.logo{
+  height: 25%;
+}
+
+.logo_align{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.media_links{
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-bottom: 0px;
+}
+
+.media_link{
+  padding: 5px;
+  height: 8%;
+}
+
+.nav_position{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-wrapper{
+  margin-top: 40px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav_links{
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+
+}
+
+.nav_link{
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav_link:hover{
+  background-color: lightgrey;
+}
+
+.carousel{
+  height: 500px !important;
+}
+
+.button_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reservation_button{
+  color: black;
+  font-size: 22px;
+  font-style: bold;
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  height: 85px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.reservation_button:hover{
+  background-color: lightgrey;
+}
+
+.sample_copy_1{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+
+.locations{
+  margin-top: 100px;
+
+}
+
+.location_title{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.address_text{
+font-family: "Roboto", sans-serif;
+padding-top: 20px;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+.parallax-container {
+     height: 350px;
+   }
+
+.parallax_content{
+  width: 100%;
+  color: white;
+  float: left;
+  font-size: 120px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 100px;
+
+}
+
+.contact_title{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Roboto",sans-serif;
+  font-style: bold;
+
+}
+
+.contact_text{
+  text-align: center;
+  font-size: 16px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer_format{
+  background-color: #343335;
+  width: 100%;
+  height: 100px;
+}
