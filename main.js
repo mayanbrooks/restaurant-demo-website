@@ -8,3 +8,12 @@ $(document).ready(function(){
 
 
 $('.carousel.carousel-slider').carousel({fullWidth: true}, {noWrap:false});
+
+
+$(document).ready(function() {
+  $(".button-collapse").sideNav();
+});
+
+$(document).ready(function() {
+ $(".dropdown-button").dropdown({hover: false});
+});

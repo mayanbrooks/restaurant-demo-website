@@ -1,6 +1,65 @@
+
+
 .logo{
   height: 25%;
 }
+
+@media only screen and (min-width: 320px){
+  .logo{
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 360px){
+  .logo{
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 375px){
+  .logo{
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 414px){
+  .logo{
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 568px){
+  .logo{
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 667px){
+  .logo{
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .logo{
+    height: 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .logo{
+    height: 20%;
+  }
+}
+
+
+@media only screen and (min-width: 1200px){
+  .logo{
+    height: 25%;
+  }
+}
+
+
 
 .logo_align{
   margin: 0 auto;
@@ -21,6 +80,7 @@
 .nav_position{
   margin: 0 auto;
   text-align: center;
+
 }
 
 .nav-wrapper{
@@ -30,11 +90,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: black;
 }
 
 .nav_links{
   font-family: "Roboto", sans-serif;
   font-size: 24px;
+  color: black;
 
 }
 
@@ -46,7 +108,7 @@
 }
 
 .nav_link:hover{
-  background-color: lightgrey;
+  background-color: red;
 }
 
 .carousel{
@@ -87,6 +149,62 @@
   margin-bottom: 50px;
 }
 
+
+@media only screen and (min-width: 320px){
+  .sample_copy_1 .contact_text{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 360px){
+  .sample_copy_1 .contact_text{
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (min-width: 375px){
+  .sample_copy_1 .contact_text{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 414px){
+  .sample_copy_1 .contact_text{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 568px){
+  .sample_copy_1 .contact_text{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 667px){
+  .sample_copy_1 .contact_text{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .sample_copy_1 .contact_text{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .sample_copy_1 .contact_text{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .sample_copy_1 .contact_text{
+    font-size: 26px;
+  }
+}
+
 .locations{
   margin-top: 100px;
 
@@ -106,6 +224,7 @@ padding-right: 40px;
 }
 .parallax-container {
      height: 350px;
+     box-sizing: border-box;
    }
 
 .parallax_content{
@@ -116,8 +235,155 @@ padding-right: 40px;
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 100px;
+  box-sizing: border-box;
 
 }
+
+@media only screen and (min-width: 320px){
+  .parallax_content{
+    font-size: 45px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 150px;
+  }
+
+  .parallax_font{
+    font-size: 45px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 360px){
+  .parallax_content{
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 150px;
+  }
+
+  .parallax_font{
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 375px){
+  .parallax_content{
+    font-size: 65px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 120px;
+  }
+
+  .parallax_font{
+    font-size: 65px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (min-width: 414px){
+  .parallax_content{
+    font-size: 65px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 120px;
+  }
+
+  .parallax_font{
+    font-size: 65px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 568px){
+  .parallax_content{
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 150px;
+  }
+
+  .parallax_font{
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (min-width: 667px){
+  .parallax_content{
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 150px;
+  }
+
+  .parallax_font{
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .parallax_content{
+    font-size: 90px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 125px;
+  }
+
+  .parallax_font{
+    font-size: 90px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .parallax_content{
+    font-size: 110px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 115px;
+  }
+
+  .parallax_font{
+    font-size: 110px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .parallax_content{
+    font-size: 120px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px;
+  }
+
+  .parallax_font{
+    font-size: 120px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
 
 .contact_title{
   margin-top: 150px;
@@ -141,4 +407,8 @@ padding-right: 40px;
   background-color: #343335;
   width: 100%;
   height: 100px;
+}
+.footer-copyright{
+  text-align: center;
+  padding: 40px;
 }
